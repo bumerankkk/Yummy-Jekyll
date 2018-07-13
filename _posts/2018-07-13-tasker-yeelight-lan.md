@@ -1,11 +1,8 @@
-TODO:
-- write post about security concern - https://hackernoon.com/inside-the-bulb-adventures-in-reverse-engineering-smart-bulb-firmware-1b81ce2694a6
-- do a translation to Czech
-- add affiliate links to foreign shops and also to czeh shops on czech translation
-
-
 ---
+layout: post
 title: How to control Yeelight Bulb with Tasker over LAN
+category: CSS
+tags: [automation, smart home]
 ---
 
 [api-spec-doc]: http://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf "document describing methods and parameters to control light unit"
@@ -53,3 +50,8 @@ Any questions about parameters please consult with [API specification document][
 
 CAUTION: Make sure you have strong password to your home WLAN and other security settings are correctly set-up (I prefer to turn WPS of completely as it is known as security concern with very tiny benefit for use experience) to prevent others with playing with your light and hackers to cause demage not only on your lights!
 
+<!-- TODO:
+     - write post about security concern - https://hackernoon.com/inside-the-bulb-adventures-in-reverse-engineering-smart-bulb-firmware-1b81ce2694a6
+     - do a translation to Czech
+     - add affiliate links to foreign shops and also to czeh shops on czech translation
+     -->
