@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Tom Hejret Web Site
+title: Tom Hejret name of mine..
 name: Tom Hejret
 email: my_email_address@lalala.com
 location: Czech
@@ -22,7 +22,7 @@ repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
 #url: http://localhost:4000
-url: https://bumerankkk.github.io
+url: https://tomhejret.cz
 
 ## Gem
 gems:

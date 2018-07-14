@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to control Yeelight Bulb with Tasker over LAN
-category: CSS
-tags: [automation, smart home]
+category: Life hacks
+tags: [automation, smart home, life hack]
 ---
 
 [api-spec-doc]: http://www.yeelight.com/download/Yeelight_Inter-Operation_Spec.pdf "document describing methods and parameters to control light unit"
@@ -22,7 +22,7 @@ I use Bulb Color, so possibly something might be specific for this product.
 - **WiFi enabled** (BT versions are out of luck here) Yeelight smart LED product - bulb, lamp, LED strip,.. plugged, powered and connected to you home WiFi network (it is needed to set static IP for each light unit!)
 
 
-## 
+## Setup
 1. First of all, you need to connect you smart LED to Yeelight App - setup should be pretty stright forward.
 	1. In the control panel of unit, tap on eject-like icon (underlined triangle pointing up)
 	1. tap LAN control button
@@ -48,10 +48,18 @@ I use Bulb Color, so possibly something might be specific for this product.
 
 Any questions about parameters please consult with [API specification document][api-spec-doc] first. I don't have any additional information on top of it!
 
+
+## Tips for improvements
+
+If you want to control your smart lights completely over LAN, you would need some UI with buttons sliders etc. :) 
+Tasker provides a way how to create it - scenes. So you can
+
+
 CAUTION: Make sure you have strong password to your home WLAN and other security settings are correctly set-up (I prefer to turn WPS of completely as it is known as security concern with very tiny benefit for use experience) to prevent others with playing with your light and hackers to cause demage not only on your lights!
 
 <!-- TODO:
-     - write post about security concern - https://hackernoon.com/inside-the-bulb-adventures-in-reverse-engineering-smart-bulb-firmware-1b81ce2694a6
-     - do a translation to Czech
-     - add affiliate links to foreign shops and also to czeh shops on czech translation
-     -->
+    - add pictures
+    - write post about security concern - https://hackernoon.com/inside-the-bulb-adventures-in-reverse-engineering-smart-bulb-firmware-1b81ce2694a6
+    - do a translation to Czech
+    - add affiliate links to foreign shops and also to czeh shops on czech translation
+-->
